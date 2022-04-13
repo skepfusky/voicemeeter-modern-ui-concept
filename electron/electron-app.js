@@ -7,14 +7,13 @@ function createWindow() {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    autoHideMenuBar: true,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: true,
     },
   });
 
-  // and load the index.html of the app.
-  // win.loadFile("index.html");
   mainWindow.loadURL(
     isDev
       ? 'http://localhost:3000'

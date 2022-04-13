@@ -3,7 +3,7 @@
   "private": true,
   "author": "Kerby Keith Aquino",
   "version": "0.0.1",
-  "main": "electron/nice-app.js",
+  "main": "electron/electron-app.js",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",

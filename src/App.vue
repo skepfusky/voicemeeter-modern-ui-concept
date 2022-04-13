@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
 import TrackBarItem from './components/TrackBarItem.vue';
+import TitleBar from './components/TitleBar.vue';
 </script>
 
 <template>
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <TitleBar />
   <TrackBarItem :value=69 />
   <TrackBarItem :value=21 />
 </template>
